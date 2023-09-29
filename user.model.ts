@@ -44,5 +44,6 @@ userSchema.methods.generateAuthToken = async function () {
 
   return token;
 };
+// asdfghjkoijhgfdszxdfghjnkbhgfgxc
 
 export default mongoose.model<User>("User", userSchema);
